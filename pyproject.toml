@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "template"
+name = "nueva-terra"
 version = "0.1.0"
-description = "Template for nextcord discord bots"
+description = "Discord bot for the Nueva Terra Minecraft server"
 authors = ["ooliver1 <oliverwilkes2006@icloud.com>"]
 license = "MIT"
 
@@ -21,7 +21,7 @@ black = "^23.3.0"
 pre-commit = "^3.3.1"
 
 [tool.taskipy.tasks]
-start = "python -m botunderscorename"
+start = "python -m nueva_terra"
 lint = "pre-commit run --all-files"
 precommit = "pre-commit install --install-hooks"
 

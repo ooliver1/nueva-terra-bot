@@ -6,9 +6,9 @@ from os import environ
 
 import uvloop
 
-from .bot import BotName
+from .bot import NuevaTerra
 
-bot = BotName()
+bot = NuevaTerra()
 
 if __name__ == "__main__":
     uvloop.install()

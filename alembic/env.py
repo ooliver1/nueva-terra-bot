@@ -5,7 +5,7 @@ from botbase.db import metadata
 from sqlalchemy import engine_from_config, pool
 
 from alembic import context
-from botunderscorename import db
+from nueva_terra import db
 
 del db
 
