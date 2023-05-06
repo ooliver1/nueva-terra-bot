@@ -9,7 +9,6 @@ __all__ = ("NuevaTerra",)
 class NuevaTerra(BotBase):
     def __init__(self) -> None:
         super().__init__(
-            name="botname",
             intents=Intents(guilds=True),
             member_cache_flags=MemberCacheFlags.none(),
             guild_ids=[802586580766162964],
