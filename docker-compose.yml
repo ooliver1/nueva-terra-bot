@@ -10,11 +10,13 @@ services:
     depends_on:
       - postgres
     build: .
+    pull_policy: build
     volumes:
       - ./logs:/bot/logs
     environment:
       TOKEN: $TOKEN
       DB_URI: postgresql://postgres:postgres@postgres:5432/bot
+      LOG_LEVEL: ${LOG_LEVEL:-DEBUG}
   postgres:
     <<: *restart-policy
     image: postgres:15

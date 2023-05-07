@@ -5,3 +5,5 @@
 !poetry.lock
 !alembic.ini
 !alembic/
+!images/
+!fonts/
