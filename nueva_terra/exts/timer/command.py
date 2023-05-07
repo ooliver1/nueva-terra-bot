@@ -50,6 +50,8 @@ class Initialise(CogBase[NuevaTerra]):
         except NoMatch:
             await inter.send("No timer initialised for this channel.", ephemeral=True)
         else:
+            message = channel.get_partial_message(record.message_id)
+            await message.delete()
             await record.delete()
             await inter.send("Deleted timer.", ephemeral=True)
 
