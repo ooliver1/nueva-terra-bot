@@ -17,7 +17,7 @@ services:
       TOKEN: ${TOKEN:?Your Discord bot TOKEN is required}
       DB_URI: postgresql://postgres:postgres@postgres:5432/bot
       LOG_LEVEL: ${LOG_LEVEL:-DEBUG}
-      DEBUG_GUILD_ID: ${GUILD_ID:?Your testing Discord DEBUG_GUILD_ID is required}
+      DEBUG_GUILD_ID: ${DEBUG_GUILD_ID:?Your testing Discord DEBUG_GUILD_ID is required}
       LOG_CHANNEL_ID: ${LOG_CHANNEL_ID:?Your testing Discord LOG_CHANNEL_ID is required}
   postgres:
     <<: *restart-policy
