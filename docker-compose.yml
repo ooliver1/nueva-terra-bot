@@ -29,3 +29,6 @@ services:
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
       - ${PG_VOLUME:-./pg_data}:/var/lib/postgresql/data
+
+volumes:
+  nueva-terra-db:
