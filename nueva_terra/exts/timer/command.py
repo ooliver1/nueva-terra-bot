@@ -24,6 +24,7 @@ class Initialise(CogBase[NuevaTerra]):
         channel:
             The channel to create the timer in.
         """
+        await inter.response.defer()
         file, embed = generate_content()
 
         message = await channel.send(file=file, embed=embed)
