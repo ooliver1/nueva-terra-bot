@@ -1075,13 +1075,13 @@ setuptools = "*"
 
 [[package]]
 name = "ooliver-botbase"
-version = "2.0.2"
+version = "2.0.3"
 description = "A personal nextcord bot base package for bots."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "ooliver_botbase-2.0.2-py3-none-any.whl", hash = "sha256:0317ca4fd8b54320ce4ad90f1dbb1e70fbb69cfbf1235fc4ffc61d65604ead22"},
-    {file = "ooliver_botbase-2.0.2.tar.gz", hash = "sha256:df0f9092eafe283bc798828ad322a8d50e0048caadf15f9136ef0834f5e67e0f"},
+    {file = "ooliver_botbase-2.0.3-py3-none-any.whl", hash = "sha256:d1b7f72487d716839e18a5ffa80dc28a444eb26d51626527bd932fca4856786b"},
+    {file = "ooliver_botbase-2.0.3.tar.gz", hash = "sha256:67221a5ede5a05b3e102c8764e465c9827dfdfb801cea4f097ee6864cdd9217d"},
 ]
 
 [package.dependencies]
@@ -1890,4 +1890,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "a5568ce59465814bb503fc98182f4161a8a041d7ce86ef6fe7840942adc003f7"
+content-hash = "375b2a91a6a5cae3baddf972e6d23619ed307c39dcda02346572f71c4aa398e7"
