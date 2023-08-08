@@ -9,7 +9,7 @@ license = "MIT"
 python = "^3.11"
 nextcord = {version = "^2.4.2", extras = ["speed"]}
 uvloop = "^0.17.0"
-ooliver-botbase = { version = "^2.0.2", extras = ["db"] }
+ooliver-botbase = { version = "^2.0.3", extras = ["db"] }
 python-dotenv = "^1.0.0"
 alembic = "^1.11.2"
 taskipy = "^1.12.0"
