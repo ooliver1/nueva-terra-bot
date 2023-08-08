@@ -1699,13 +1699,13 @@ sqlcipher = ["sqlcipher3-binary"]
 
 [[package]]
 name = "taskipy"
-version = "1.10.4"
+version = "1.12.0"
 description = "tasks runner for python projects"
 optional = false
 python-versions = ">=3.6,<4.0"
 files = [
-    {file = "taskipy-1.10.4-py3-none-any.whl", hash = "sha256:b96245d7f2956d36821435acaa822143ef6d2ff6cfecc48cf0a48c4b95456c14"},
-    {file = "taskipy-1.10.4.tar.gz", hash = "sha256:0006429f708f530fc7add28ca51fd41f6c6e1fbe86763ff05125e1af3e8bdc7e"},
+    {file = "taskipy-1.12.0-py3-none-any.whl", hash = "sha256:38306fbc952a7ca314b8f842a74b2fc38535cdab21031fe89e714a83e6259a84"},
+    {file = "taskipy-1.12.0.tar.gz", hash = "sha256:e3dd7c53f7c9c4fd17dc908b1037f545afc452907eb0953b84e91c0a9a9d809d"},
 ]
 
 [package.dependencies]
@@ -1890,4 +1890,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ffeb037a18c0f5dc3a4987524e2e895d3f70a28be3c5bf00a68d8f67f30bbee7"
+content-hash = "6ffa25f1ed397e1aa6c3e0eb4ced96b26921bac0c03e0d20edbf9d9385b8426f"
